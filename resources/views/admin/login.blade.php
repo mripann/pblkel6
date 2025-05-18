@@ -1,10 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<<<<<<< HEAD
-<title>Login Admin Page - Fishapp</title>
-=======
 <title>Login Admin Page - Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
 
 <style>
     .custom-title {
@@ -26,11 +22,7 @@
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" name="email" required placeholder="Masukkan email Anda">
                 </div>
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> 1689366 (Benerin nama)
                 <div class="form-group mb-3">
                     <label for="password">Password</label>
                     <div class="input-group">
@@ -42,11 +34,7 @@
                         </div>
                     </div>
                 </div>
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> 1689366 (Benerin nama)
                 <div class="form-group form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="remember" name="remember">
                     <label class="form-check-label" for="remember">Ingat Saya</label>
@@ -62,13 +50,8 @@
                     <a href="{{ route('admin.password.request') }}" class="d-block" style="font-size: 0.700rem;">Lupa Kata Sandi?</a>
                     <a href="{{ route('login') }}" class="d-block" style="font-size: 0.700rem;">Masuk Sebagai Pembeli</a>
                     <a href="{{ route('login_nelayan') }}" class="d-block" style="font-size: 0.700rem;">Masuk Sebagai Nelayan</a>
-<<<<<<< HEAD
-                </div>            
-                
-=======
                 </div>
 
->>>>>>> 1689366 (Benerin nama)
             </form>
         </div>
     </div>
@@ -82,11 +65,6 @@
      document.getElementById('toggle-password').addEventListener('click', function() {
             const passwordInput = document.getElementById('password');
             const eyeIcon = document.getElementById('eye-icon');
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 1689366 (Benerin nama)
             if (passwordInput.type === 'password') {
                 passwordInput.type = 'text'; // Tampilkan password
                 eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -98,8 +76,4 @@
             }
         });
 </script>
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> 1689366 (Benerin nama)

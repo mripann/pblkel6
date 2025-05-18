@@ -1,10 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<<<<<<< HEAD
-<title>Permintaan Penjualan Seafood Page - Fishapp</title>
-=======
 <title>Permintaan Penjualan Seafood Page - Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <style>
     .card {
@@ -44,15 +40,6 @@
                     <p class="card-text mb-3" style="color: red">status {{$se->status}}</p>
                     <div class="d-flex gap-1">
                         <a href="{{route('admin.view.detail.seafood', ['id' => $se->kode_seafood])}}">
-<<<<<<< HEAD
-                            <button class="btn btn-sm btn-primary">Detail</button> 
-                        </a>
-                        <a href="#">
-                            <button class="btn btn-sm btn-success" data-bs-toggle="modal" data-bs-target="#confirmModal{{$se->kode_seafood}}">verifikasi</button> 
-                        </a>
-                        <a href="#">
-                            <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#confirmModal2{{$se->kode_seafood}}">Tolak</button> 
-=======
                             <button class="btn btn-sm btn-primary">Detail</button>
                         </a>
                         <a href="#">
@@ -60,7 +47,6 @@
                         </a>
                         <a href="#">
                             <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#confirmModal2{{$se->kode_seafood}}">Tolak</button>
->>>>>>> 1689366 (Benerin nama)
                         </a>
                     </div>
                 </div>
@@ -182,8 +168,4 @@
             });
         });
     </script>
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> 1689366 (Benerin nama)

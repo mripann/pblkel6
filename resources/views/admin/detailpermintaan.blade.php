@@ -1,10 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<<<<<<< HEAD
-    <title>Detail Nelayan Page - Fishapp</title>
-=======
     <title>Detail Nelayan Page - Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('content')
@@ -160,11 +156,7 @@
                     <a href="{{route('admin.dashboard')}}">
                         <button type="button" class="btn btn-secondary w-50">Kembali</button>
                     </a>
-<<<<<<< HEAD
-                </div>                
-=======
                 </div>
->>>>>>> 1689366 (Benerin nama)
                    @endif
 
                 </form>
