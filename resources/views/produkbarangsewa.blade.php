@@ -1,11 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-<<<<<<< HEAD
-<title>Barang Sewa Page -Fishapp</title>
-=======
 <title>Barang Sewa Page -Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('content')
