@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
 @section('title')
+<<<<<<< HEAD
     <title>Login Page - Fishapp</title>
+=======
+    <title>Login Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('head')
@@ -36,12 +40,20 @@
             text-decoration: none;
             font-size: 16px;
             transition: background-color 0.3s;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 1689366 (Benerin nama)
         }
 
         .login-btn:hover {
             background-color: #555;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 1689366 (Benerin nama)
         }
 
         .login-btn img {
@@ -62,7 +74,11 @@
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" name="email" required placeholder="Masukkan email Anda">
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                 <div class="form-group mb-3">
                     <label for="password">Password</label>
                     <div class="input-group">
@@ -74,7 +90,11 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                 <div class="form-group form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="remember" name="remember">
                     <label class="form-check-label" for="remember">Ingat Saya</label>
@@ -85,21 +105,35 @@
                 <div class="text-center mb-3">
                     <span class="text-muted">atau masuk dengan</span>
                 </div>
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 1689366 (Benerin nama)
             <div class="container mt-1">
                 <div class="row">
                             <div class="col-6">
                                 <a href="{{ route('google-auth') }}" class="login-btn google; btn btn-outline-primary"           style="display: flex; align-items: center; text-decoration: none;">
+<<<<<<< HEAD
                                 <img src="https://developers.google.com/identity/images/g-logo.png" 
                                     alt="Google" 
+=======
+                                <img src="https://developers.google.com/identity/images/g-logo.png"
+                                    alt="Google"
+>>>>>>> 1689366 (Benerin nama)
                                     style="width: 25px; height: auto;">
                                     <span style="font-size: 16px; color: primary;">Google</span>
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="{{ route('facebook-auth') }}" class="login-btn facebook; btn btn-outline-primary" style="display: flex; align-items: center; text-decoration: none;">
+<<<<<<< HEAD
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
                                     alt="Facebook" 
+=======
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+                                    alt="Facebook"
+>>>>>>> 1689366 (Benerin nama)
                                     style="width: 25px; height: auto;">
                                     <span style="font-size: 16px; color: primary;">Facebook</span>
                                 </a>

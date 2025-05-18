@@ -1,6 +1,10 @@
 @extends('layouts.app_admin')
 @section('title')
+<<<<<<< HEAD
 <title>Data Nelayan Page - Fishapp</title>
+=======
+<title>Data Nelayan Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 <style>
     .text-center {
     text-align: center;
@@ -33,7 +37,11 @@
                     <th>No</th> <!-- Kolom nomor -->
                     <th>Name</th>
                     <th>Email</th>
+<<<<<<< HEAD
                    
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                 </tr>
             </thead>
             <tfoot>
@@ -41,7 +49,11 @@
                     <th>No</th> <!-- Kolom nomor -->
                     <th>Name</th>
                     <th>Email</th>
+<<<<<<< HEAD
                     
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                 </tr>
             </tfoot>
             <tbody>
@@ -53,7 +65,14 @@
                 </tr>
                 @endforeach
             </tbody>
+<<<<<<< HEAD
         </table>        
     </div>
 </div>
 @endsection
+=======
+        </table>
+    </div>
+</div>
+@endsection
+>>>>>>> 1689366 (Benerin nama)

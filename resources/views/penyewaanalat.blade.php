@@ -1,7 +1,11 @@
 @extends('layouts.app')
 
 @section('title')
+<<<<<<< HEAD
     <title>Penyewaan Alat - FISHApp</title>
+=======
+    <title>Penyewaan Alat - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
     <style>
          body {
             font-family: Arial, sans-serif;
@@ -94,4 +98,8 @@
             </div>
         </div>
     @include('components.foot')
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 1689366 (Benerin nama)

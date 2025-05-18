@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('title')
+<<<<<<< HEAD
 <title>Dashboard Page - RaraCookies</title>
+=======
+<title>Dashboard Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('content')

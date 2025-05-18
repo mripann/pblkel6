@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('title')
+<<<<<<< HEAD
 <title>Forgot Password Admin Page - Fishapp</title>
+=======
+<title>Forgot Password Admin Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 
 <style>
     .custom-title {
@@ -23,7 +27,11 @@
                     <input type="email" class="form-control" id="email" name="email" required placeholder="Masukkan email Anda">
                 </div>
 
+<<<<<<< HEAD
                 <button type="submit" class="btn btn-primary w-100 mb-3">Send Password Reset Link</button>        
+=======
+                <button type="submit" class="btn btn-primary w-100 mb-3">Send Password Reset Link</button>
+>>>>>>> 1689366 (Benerin nama)
             </form>
         </div>
     </div>
@@ -37,7 +45,11 @@
      document.getElementById('toggle-password').addEventListener('click', function() {
             const passwordInput = document.getElementById('password');
             const eyeIcon = document.getElementById('eye-icon');
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 1689366 (Benerin nama)
             if (passwordInput.type === 'password') {
                 passwordInput.type = 'text'; // Tampilkan password
                 eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -49,4 +61,8 @@
             }
         });
 </script>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 1689366 (Benerin nama)

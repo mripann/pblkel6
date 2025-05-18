@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('title')
+<<<<<<< HEAD
 <title>Forgot Password - Fishapp</title>
+=======
+<title>Forgot Password - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 
 <style>
     .custom-title {

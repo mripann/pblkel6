@@ -1,7 +1,11 @@
 @extends('layouts.app_admin')
 
 @section('title')
+<<<<<<< HEAD
     <title>Detail Barang Sewa {{ $barang->nama }} Page - Fishapp</title>
+=======
+    <title>Detail Barang Sewa {{ $barang->nama }} Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
     <style>
         .card-title {
             font-size: 1.2rem; /* Ukuran judul lebih kecil */
@@ -112,4 +116,8 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 1689366 (Benerin nama)

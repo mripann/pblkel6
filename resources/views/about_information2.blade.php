@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('title')
+<<<<<<< HEAD
 <title>About-Information - Fishapp</title>
+=======
+<title>About-Information - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('content')

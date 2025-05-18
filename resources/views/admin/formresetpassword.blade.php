@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('title')
+<<<<<<< HEAD
 <title>Reset Password Admin Page - Fishapp</title>
+=======
+<title>Reset Password Admin Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 
 <style>
     .custom-title {
@@ -22,7 +26,11 @@
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" name="email" required value="{{$email}}" readonly>
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                 <div class="form-group mb-3">
                     <label for="password">Password</label>
                     <div class="input-group">
@@ -46,13 +54,21 @@
                         </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                 <div class="form-group form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="remember" name="remember">
                     <label class="form-check-label" for="remember">Ingat Saya</label>
                 </div>
 
+<<<<<<< HEAD
                 <button type="submit" class="btn btn-primary w-100 mb-3">Submit</button>           
+=======
+                <button type="submit" class="btn btn-primary w-100 mb-3">Submit</button>
+>>>>>>> 1689366 (Benerin nama)
             </form>
         </div>
     </div>
@@ -66,7 +82,11 @@
     document.getElementById('toggle-password').addEventListener('click', function() {
            const passwordInput = document.getElementById('password');
            const eyeIcon = document.getElementById('eye-icon');
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 1689366 (Benerin nama)
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -81,7 +101,11 @@
        document.getElementById('toggle-password-confirmation').addEventListener('click', function() {
            const passwordInput = document.getElementById('confirm_password');
            const eyeIcon = document.getElementById('"eye-icon-confirm');
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 1689366 (Benerin nama)
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -93,4 +117,8 @@
            }
        });
 </script>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> 1689366 (Benerin nama)

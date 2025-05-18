@@ -1,6 +1,10 @@
 @extends('layouts.app')
 @section('title')
+<<<<<<< HEAD
     <title>Seafood Page - Fishapp</title>
+=======
+    <title>Seafood Page - Raracookies</title>
+>>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('content')
@@ -96,7 +100,11 @@
             </div>
         </a>
     </div>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 1689366 (Benerin nama)
    <div class="modal fade" id="productModal{{ $se->kode_seafood }}" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -145,7 +153,11 @@
                 <a href="{{route('hubungi.penjual.seafood', ['id' =>$se->nelayan->detailProfile->id ])}}" class="btn btn-sm btn-primary text-white">
                                         <i class="bi bi-telephone"></i> Hubungi Penjual
                                     </a>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 1689366 (Benerin nama)
                                     <a href="{{ route('beliseafood', ['kode_seafood' => $se->kode_seafood]) }}" class="btn btn-sm btn-success text-white">
                                         <i class="bi bi-cart-plus"></i> Beli
                                     </a>
