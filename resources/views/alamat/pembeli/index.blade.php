@@ -1,11 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-<<<<<<< HEAD
-    <title>Alamat Pengiriman Page - Fishapp</title>
-=======
     <title>Alamat Pengiriman Page - Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
 @endsection
 
 @section('content')
@@ -293,8 +289,4 @@
         });
     });
 </script>
-<<<<<<< HEAD
 @endsection
-=======
-@endsection
->>>>>>> 1689366 (Benerin nama)

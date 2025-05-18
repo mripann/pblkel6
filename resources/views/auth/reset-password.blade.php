@@ -1,10 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<<<<<<< HEAD
-<title>Perbarui Kata Sandi - Fishapp</title>
-=======
 <title>Perbarui Kata Sandi - Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
 
 <style>
     .custom-title {
@@ -66,11 +62,7 @@
     document.getElementById('toggle-password').addEventListener('click', function() {
            const passwordInput = document.getElementById('password');
            const eyeIcon = document.getElementById('eye-icon');
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1689366 (Benerin nama)
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -85,11 +77,7 @@
        document.getElementById('toggle-password-confirmation').addEventListener('click', function() {
            const passwordInput = document.getElementById('confirm_password');
            const eyeIcon = document.getElementById('"eye-icon-confirm');
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1689366 (Benerin nama)
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata

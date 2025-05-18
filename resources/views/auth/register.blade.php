@@ -1,20 +1,11 @@
 @extends('layouts.app')
 @section('title')
-<<<<<<< HEAD
-    <title>Register Page - Fishapp</title>
-=======
     <title>Register Page - Raracookies</title>
->>>>>>> 1689366 (Benerin nama)
     <style>
         .custom-title {
             font-size: 2rem; /* Sesuaikan ukuran font sesuai kebutuhan */
             font-weight: bold; /* Opsional: membuat font menjadi tebal */
         }
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 1689366 (Benerin nama)
     </style>
 @endsection
 
@@ -71,26 +62,16 @@
                 <div class="row">
                             <div class="col-6">
                                 <a href="{{ route('google-auth') }}" class="login-btn google; btn btn-outline-primary"           style="display: flex; align-items: center; text-decoration: none;">
-<<<<<<< HEAD
-                                <img src="https://developers.google.com/identity/images/g-logo.png" 
-                                    alt="Google" 
-=======
                                 <img src="https://developers.google.com/identity/images/g-logo.png"
                                     alt="Google"
->>>>>>> 1689366 (Benerin nama)
                                     style="width: 20px; height: auto;">
                                     <span style="font-size: 16px; color: primary;">Google</span>
                                 </a>
                             </div>
                             <div class="col-6">
                                 <a href="{{ route('facebook-auth') }}" class="login-btn facebook; btn btn-outline-primary" style="display: flex; align-items: center; text-decoration: none;">
-<<<<<<< HEAD
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
-                                    alt="Facebook" 
-=======
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
                                     alt="Facebook"
->>>>>>> 1689366 (Benerin nama)
                                     style="width: 20px; height: auto;">
                                     <span style="font-size: 16px; color: primary;">Facebook</span>
                                 </a>
@@ -101,11 +82,7 @@
                 <div class="d-flex justify-content-between mb-3">
                     <a href="{{ route('login') }}" class="d-block" style="font-size: 0.900rem; margin-top:25px;">Sudah punya akun? Login</a>
                     <a href="{{ route('login_admin') }}" class="d-block" style="font-size: 0.900rem; margin-top:25px;">Masuk sebagai Admin</a>
-<<<<<<< HEAD
-                </div>            
-=======
                 </div>
->>>>>>> 1689366 (Benerin nama)
             </form>
         </div>
     </div>
@@ -119,11 +96,7 @@
     document.getElementById('toggle-password').addEventListener('click', function() {
            const passwordInput = document.getElementById('password');
            const eyeIcon = document.getElementById('eye-icon');
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1689366 (Benerin nama)
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -138,11 +111,7 @@
        document.getElementById('toggle-password-confirmation').addEventListener('click', function() {
            const passwordInput = document.getElementById('confirm_password');
            const eyeIcon = document.getElementById('"eye-icon-confirm');
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 1689366 (Benerin nama)
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
