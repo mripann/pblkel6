@@ -49,7 +49,7 @@
                 <div class="d-flex justify-content-between mb-3">
                     <a href="{{ route('admin.password.request') }}" class="d-block" style="font-size: 0.700rem;">Lupa Kata Sandi?</a>
                     <a href="{{ route('login') }}" class="d-block" style="font-size: 0.700rem;">Masuk Sebagai Pembeli</a>
-                    <a href="{{ route('login_nelayan') }}" class="d-block" style="font-size: 0.700rem;">Masuk Sebagai Nelayan</a>
+                    <a href="{{ route('login_nelayan') }}" class="d-block" style="font-size: 0.700rem;">Masuk Sebagai Penjual</a>
                 </div>
 
             </form>

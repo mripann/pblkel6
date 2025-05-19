@@ -7,7 +7,7 @@
     <div class="container mt-5">
         <div class="card shadow-sm border-0 rounded">
             <div class="card-header bg-primary text-white">
-                <h4 class="mb-0">Detail Nelayan</h4>
+                <h4 class="mb-0">Detail Penjual</h4>
             </div>
             <div class="card-body">
                 <form>
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="row mb-4">
-                        <label for="status" class="col-md-3 col-form-label fw-semibold">Nama Kapal</label>
+                        <label for="status" class="col-md-3 col-form-label fw-semibold">Nama Kue</label>
                         <div class="col-md-9">
                             <input type="text" class="form-control" id="status"
                                 value="{{ $nelayan->detailProfile->nama_kapal }}" readonly>
@@ -116,7 +116,7 @@
                     </div>
 
                     <div class="row mb-4">
-                        <label for="status" class="col-md-3 col-form-label fw-semibold">Jenis Kapal</label>
+                        <label for="status" class="col-md-3 col-form-label fw-semibold">Jenis Kue</label>
                         <div class="col-md-9">
                             <input type="text" class="form-control" id="status"
                                 value="{{ $nelayan->detailProfile->jenis_kapal }}" readonly>
@@ -124,7 +124,7 @@
                     </div>
 
                     <div class="row mb-4">
-                        <label for="status" class="col-md-3 col-form-label fw-semibold">Jenis Kapal</label>
+                        <label for="status" class="col-md-3 col-form-label fw-semibold">Jenis Kue</label>
                         <div class="col-md-9">
                             <input type="number" class="form-control" id="status"
                                 value="{{ $nelayan->detailProfile->jumlah_abk }}" readonly>
@@ -172,7 +172,7 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Apakah Anda yakin ingin memverifikasi akun ini menjadi nelayan?
+                                Apakah Anda yakin ingin memverifikasi akun ini menjadi Penjual?
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>

@@ -1,6 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<title>Permintaan Penjualan Seafood Page - Raracookies</title>
+<title>Permintaan Penjualan Nastar Page - Raracookies</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <style>
     .card {
@@ -22,7 +22,7 @@
 
 @section('content')
 <ol class="breadcrumb mt-4">
-    <li class="breadcrumb-item active">Permintaan Penjualan Seafood</li>
+    <li class="breadcrumb-item active">Permintaan Penjualan Roti Kering</li>
 </ol>
 <div class="container mt-4">
     <div class="row">

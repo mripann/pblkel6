@@ -1,7 +1,7 @@
 @extends('layouts.app_admin')
 
 @section('title')
-<title>Data Permintaan Penyewaan Alat Page-Raracookies</title>
+<title>Data Permintaan Penyewaan Alat Page Raracookies</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <style>
     .card {

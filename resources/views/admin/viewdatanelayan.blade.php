@@ -1,6 +1,6 @@
 @extends('layouts.app_admin')
 @section('title')
-<title>Data Nelayan Page - Raracookies</title>
+<title>Data Penjual Page - Raracookies</title>
 <style>
     .text-center {
     text-align: center;
