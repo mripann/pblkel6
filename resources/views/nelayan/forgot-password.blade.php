@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<title>Forgot Password Nelayan Page - Fishapp</title>
+<title>Forgot Password User Page - RaraCookies</title>
 
 <style>
     .custom-title {
@@ -23,7 +23,7 @@
                     <input type="email" class="form-control" id="email" name="email" required placeholder="Masukkan email Anda">
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100 mb-3">Send Password Reset Link</button>        
+                <button type="submit" class="btn btn-primary w-100 mb-3">Send Password Reset Link</button>
             </form>
         </div>
     </div>

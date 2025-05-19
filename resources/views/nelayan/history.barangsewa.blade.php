@@ -1,6 +1,6 @@
 
 @section('title')
-<title>History BarangSewa Page - Fishapp</title>
+<title>History BarangSewa Page - RaraCookies</title>
 <style>
     .text-center {
     text-align: center;
@@ -33,7 +33,7 @@
                     <th>No</th> <!-- Kolom nomor -->
                     <th>Name</th>
                     <th>Email</th>
-                   
+
                 </tr>
             </thead>
             <tfoot>
@@ -41,11 +41,11 @@
                     <th>No</th> <!-- Kolom nomor -->
                     <th>Name</th>
                     <th>Email</th>
-                    
+
                 </tr>
             </tfoot>
             </tbody>
-        </table>        
+        </table>
     </div>
 </div>
 @endsection

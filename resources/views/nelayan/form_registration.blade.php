@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Form-Registrasi Page - Fishapp</title>
+    <title>Form-Registrasi Page - RaraCookies</title>
 
     <style>
         .custom-title {
@@ -149,8 +149,8 @@
     </div>
 
 
-    {{-- composer require laravolt/indonesia  
-php artisan vendor:publish --provider="Laravolt\Indonesia\ServiceProvider"     
+    {{-- composer require laravolt/indonesia
+php artisan vendor:publish --provider="Laravolt\Indonesia\ServiceProvider"
 php artisan laravolt:indonesia:seed --}}
 
 

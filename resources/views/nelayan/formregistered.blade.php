@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<title>REgistrasi Akun Nelayan Page - Fishapp</title>
+<title>Registrasi Akun User Page - RaraCookies</title>
 
 <style>
     .custom-title {
@@ -22,7 +22,7 @@
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" name="email" required value="{{$email}}" readonly>
                 </div>
-                
+
                 <div class="form-group mb-3">
                     <label for="password">Password</label>
                     <div class="input-group">
@@ -46,13 +46,13 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="form-group form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="remember" name="remember">
                     <label class="form-check-label" for="remember">Ingat Saya</label>
                 </div>
 
-                <button type="submit" class="btn btn-primary w-100 mb-3">Submit</button>           
+                <button type="submit" class="btn btn-primary w-100 mb-3">Submit</button>
             </form>
         </div>
     </div>
@@ -66,7 +66,7 @@
     document.getElementById('toggle-password').addEventListener('click', function() {
            const passwordInput = document.getElementById('password');
            const eyeIcon = document.getElementById('eye-icon');
-   
+
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
@@ -81,7 +81,7 @@
        document.getElementById('toggle-password-confirmation').addEventListener('click', function() {
            const passwordInput = document.getElementById('confirm_password');
            const eyeIcon = document.getElementById('"eye-icon-confirm');
-   
+
            if (passwordInput.type === 'password') {
                passwordInput.type = 'text'; // Tampilkan password
                eyeIcon.classList.remove('bi-eye'); // Ganti ikon mata
