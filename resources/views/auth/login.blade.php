@@ -107,7 +107,7 @@
 
                 <div class="d-flex justify-content-between mb-3">
                     <a href="{{ route('password.request') }}" style="font-size: 0.900rem; margin-top:25px;">Lupa Kata Sandi?</a>
-                    <a href="{{ route('login_nelayan') }}" style="font-size: 0.900rem; margin-top:25px;">Masuk sebagai nelayan</a>
+                    <a href="{{ route('login_nelayan') }}" style="font-size: 0.900rem; margin-top:25px;">Masuk sebagai penjual</a>
                 </div>
             </form>
         </div>
