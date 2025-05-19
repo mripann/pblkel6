@@ -1,7 +1,7 @@
 @extends('layouts.app_nelayan')
 
 @section('title')
-    <title>Create Seafood Page - Fishapp</title>
+    <title>Create Seafood Page - RaraCookies</title>
 @endsection
 
 @section('content')

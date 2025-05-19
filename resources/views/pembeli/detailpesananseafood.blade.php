@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <title>Detail Pesanan Seafood - Fishapp</title>
+    <title>Detail Pesanan Seafood - RaraCookies</title>
 @endsection
 
 @section('content')

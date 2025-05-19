@@ -16,7 +16,7 @@
         <div class="col-md-6 col-lg-4">
             <form action="{{ route('nelayan.password.email') }}" method="POST" class="shadow p-4 rounded bg-white">
                 @csrf
-                <h1 class="text-center mb-4 custom-title">Nelayan Forgot Password</h1>
+                <h1 class="text-center mb-4 custom-title">User Forgot Password</h1>
 
                 <div class="form-group mb-3">
                     <label for="email">Email</label>

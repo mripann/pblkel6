@@ -52,15 +52,15 @@
         <div class="col-lg-5 col-md-6">
             <div class="bg-light p-4 rounded shadow-sm text-center h-100">
                 <i class="fa fa-anchor fa-3x text-warning mb-3"></i>
-                <h4 class="mb-3">Pendaftaran Sebagai Nelayan</h4>
-                <p>Daftar sebagai nelayan dan mulai menjual hasil laut Anda dengan mudah melalui FishApp.</p>
+                <h4 class="mb-3">Pendaftaran Sebagai User</h4>
+                <p>Daftar sebagai Penjual dan mulai menjual hasil roti Anda dengan mudah melalui Raracookies.</p>
                 <div class="text-start">
                     <p><i class="fa fa-edit text-primary me-2"></i>Isi formulir pendaftaran yang sudah disediakan.</p>
-                    <p><i class="fa fa-hourglass-start text-primary me-2"></i>Tunggu 2x24 jam untuk proses verifikasi admin.</p>
+                    <p><i class="fa fa-hourglass-start text-primary me-2"></i>Tunggu 1x24 jam untuk proses verifikasi admin.</p>
                     <p><i class="fa fa-envelope text-primary me-2"></i>Terima email konfirmasi terkait status pendaftaran.</p>
                     <p><i class="fa fa-lock text-primary me-2"></i>Daftarkan akun dan buat kata sandi baru.</p>
                 </div>
-                <a href="{{route('form_registrasi_nelayan')}}" class="btn btn-warning mt-3">Daftar Nelayan</a>
+                <a href="{{route('form_registrasi_nelayan')}}" class="btn btn-warning mt-3">Daftar User</a>
             </div>
         </div>
     </div>
@@ -69,14 +69,14 @@
 
 
         <!-- Manfaat FishApp Start -->
-        <h2 class="text-center mt-5 mb-4" style="color: #097ABA;">Mengapa Memilih FishApp?</h2>
+        <h2 class="text-center mt-5 mb-4" style="color: #097ABA;">Mengapa Memilih RaraCookies?</h2>
         <div class="row gy-4">
             <div class="col-md-6">
                 <div class="d-flex align-items-start">
                     <i class="fa fa-star text-warning fa-2x me-3"></i>
                     <div>
                         <h5>Produk Berkualitas</h5>
-                        <p>FishApp memastikan produk kue kering yang Anda beli adalah produk yang berkualitas.</p>
+                        <p>RaraCookies memastikan produk yang Anda beli adalah hasil dari roti pilihan dan berkualitas.</p>
                     </div>
                 </div>
             </div>
@@ -93,8 +93,8 @@
                 <div class="d-flex align-items-start">
                     <i class="fa fa-users text-warning fa-2x me-3"></i>
                     <div>
-                        <h5>Memberdayakan Nelayan</h5>
-                        <p>Kami mendukung nelayan lokal dengan memberikan akses langsung ke pasar digital.</p>
+                        <h5>Memberdayakan Penjual</h5>
+                        <p>Kami mendukung penjual rumahan dengan memberikan akses langsung ke pasar digital.</p>
                     </div>
                 </div>
             </div>

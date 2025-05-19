@@ -1,6 +1,6 @@
 @extends('layouts.app_nelayan')
 @section('title')
-<title>Nelayan Seafood Page - Fishapp</title>
+<title>User Seafood Page - RaraCookies</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <style>
     .card {

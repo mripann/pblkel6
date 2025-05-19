@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Keranjang Page - Fishapp</title>
+    <title>Keranjang Page - RaraCookies</title>
     <style>
         .cart-item {
             border: 1px solid #ddd;
@@ -125,7 +125,7 @@
     <div class="row">
         <div class="col-md-7 w-66" style="background-color: white; border: 1px solid #ddd; padding: 20px; width: 66%; box-sizing: border-box;">
             <h1>Keranjang Seafoods</h1>
-            <div class="d-flex justify-content-between align-items-start mb-3" 
+            <div class="d-flex justify-content-between align-items-start mb-3"
                 style="background-color: white; border: 1px solid #ddd; padding: 10px; width: 100%; box-sizing: border-box;">
                 <table style="width: 100%; border-collapse: collapse;">
                     <tr>
@@ -140,7 +140,7 @@
                     </tr>
                 </table>
             </div>
-            
+
             @foreach ($keranjang as $item)
             <div class="cart-item d-flex" data-id="{{ $item->kode_keranjang }}">
                 <div class="checkbox">
@@ -188,7 +188,7 @@
                     <p style="margin: 0; font-weight: bold; color: black;">Rp<span id="total">{{ number_format($total, 0, ',', '.') }}</span></p>
                 </div>
 
-                <button id="checkout-button" class="btn btn-primary btn-block w-100">Checkout (0)</button> 
+                <button id="checkout-button" class="btn btn-primary btn-block w-100">Checkout (0)</button>
             </div>
         </div>
     </div>
@@ -651,6 +651,5 @@ deleteSelectedSewa.addEventListener('click', function (e) {
         // Panggil fungsi validasi dan update saat halaman dimuat
         validateCheckoutButton();
         updateItemCountSewa();
-    });
-</script> 
+</script>
 @endsection

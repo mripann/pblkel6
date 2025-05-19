@@ -1,7 +1,7 @@
 @extends('layouts.app_nelayan')
 
 @section('title')
-    <title>Edit Seafood {{$seafood->nama}} Page - Fishapp</title>
+    <title>Edit Seafood {{$seafood->nama}} Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -30,7 +30,7 @@
                             <option value="cumi" {{ $seafood->jenis_seafood == 'cumi' ? 'selected' : '' }}>Cumi-cumi</option>
                             <option value="kepiting" {{ $seafood->jenis_seafood == 'kepiting' ? 'selected' : '' }}>Kepiting</option>
                         </select>
-                    </div>                    
+                    </div>
 
                     <div class="mb-3">
                         <label for="quantity" class="form-label">Jumlah</label>
@@ -51,7 +51,7 @@
                         </div>
                         <label for="photo" class="form-label mt-2">Ubah Foto:</label>
                         <input type="file" class="form-control" id="photo" name="photo" accept="image/*">
-                    </div>                    
+                    </div>
 
                     <button type="submit" class="btn btn-primary">Simpan</button>
                     <a href="{{ route('sefood.index') }}" class="btn btn-secondary">Kembali</a>

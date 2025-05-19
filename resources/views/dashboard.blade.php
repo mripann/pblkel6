@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-<title>Dashboard Page - Raracookies</title>
+<title>Dashboard Page - RaraCookies</title>
 @endsection
 
 @section('content')

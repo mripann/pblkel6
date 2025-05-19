@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Form Pembelian Seafood {{ $barang->nama_barang }} Page - Fishapp</title>
+    <title>Form Pembelian Seafood {{ $barang->nama_barang }} Page - RaraCookies</title>
     <style>
         .product-container {
             display: flex;

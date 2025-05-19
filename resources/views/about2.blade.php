@@ -35,11 +35,11 @@
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                 <h6 class="section-title bg-white text-start pe-3" style="color: #e8d86b">Tentang Kami</h6>
                 <h1 class="mb-4">Selamat Datang di RaraCookies</h1>
-                <p class="mb-4" style="color: black">FishApp bukan hanya sekadar aplikasi, kami adalah platform inovatif yang menghubungkan nelayan dengan pelanggan yang mencari hasil laut segar. Kami hadir untuk memberdayakan nelayan dan meningkatkan aksesibilitas produk perikanan melalui teknologi yang efisien.</p>
-                <p class="mb-4" style="color: black">Dengan sistem pemesanan online yang mudah dan jaringan pengiriman yang luas, FishApp memastikan Anda mendapatkan hasil tangkapan terbaik dari nelayan lokal, langsung ke pintu Anda.</p>
+                <p class="mb-4" style="color: black">RaraCookies bukan hanya sekadar aplikasi, kami adalah platform inovatif yang menghubungkan penjual dengan pembeli yang mencari makanan ringan berupa roti kering. Kami hadir untuk memberdayakan penjual rumahan dan meningkatkan aksesibilitas produk penjual roti melalui teknologi yang efisien.</p>
+                <p class="mb-4" style="color: black">Dengan sistem pemesanan online yang mudah dan jaringan pengiriman yang luas, RaraCookies memastikan Anda mendapatkan produk roti kering terbaik dari penjual rumahan, langsung ke pintu Anda.</p>
                 <div class="row gy-2 gx-4 mb-4">
                     <div class="col-sm-6">
-                        <p class="mb-0" style="color: black"><i class="fa fa-arrow-right text-primary me-2"></i>Hasil Laut Segar dan Berkualitas</p>
+                        <p class="mb-0" style="color: black"><i class="fa fa-arrow-right text-primary me-2"></i>Roti kering RaraCookies lezat dan enak</p>
                     </div>
                     <div class="col-sm-6">
                         <p class="mb-0" style="color: black"><i class="fa fa-arrow-right text-primary me-2"></i>Pemesanan Mudah dan Cepat</p>

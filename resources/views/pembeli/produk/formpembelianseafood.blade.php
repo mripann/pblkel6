@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Form Pembelian Seafood {{ $seafood->nama }} Page - Fishapp</title>
+    <title>Form Pembelian Seafood {{ $seafood->nama }} Page - RaraCookies</title>
     <style>
         .product-container {
             display: flex;
@@ -123,17 +123,17 @@
 @section('content')
 <div class="container mt-5 mb-3">
         <div class="row g-4 align-items-start">
-            
-            
+
+
             <!-- Gambar Produk -->
             <div class="col-12 col-lg-6 text-center">
                 <img src="{{ asset('storage/fotoseafood/' . $seafood->foto) }}" class="img-fluid rounded w-50 w-lg-100" alt="foto seafood">
             </div>
-            
+
             <!-- Detail Produk -->
             <div class="col-12 col-lg-6">
                 <h1 class="card-title fs-1">{{ $seafood->nama }}</h1>
-                
+
                  <!-- Total Penjualan -->
                  <div class="mb-2">
                         <small class="text-muted">
@@ -150,23 +150,23 @@
                             </div>
                         </div>
                     </div>
-                
+
                 <p class="card-text fw-bold mb-1 fs-4" style="color:black;">Rp {{ number_format($seafood->harga->harga, 0, ',', '.') }} /KG</p>
                 <div class="product-details">
                     <p>Sedang Tersedia {{ $seafood->jumlah }} KG untuk saat ini</p>
                 </div>
                 <!-- Penjual -->
-                <div class="d-flex justify-content-between align-items-start mb-3" 
+                <div class="d-flex justify-content-between align-items-start mb-3"
                     style="background-color: white; border: 1px solid #ddd; padding: 10px; width: 100%; box-sizing: border-box; border-radius: 8px;">
                     <div style="display: flex; align-items: center; gap: 10px;">
-                        <img src="{{ asset('storage/fotonelayan/' . $seafood->nelayan->detailProfile->foto) }}" 
-                            alt="Foto Nelayan" 
-                            class="rounded img-thumbnail" 
+                        <img src="{{ asset('storage/fotonelayan/' . $seafood->nelayan->detailProfile->foto) }}"
+                            alt="Foto Nelayan"
+                            class="rounded img-thumbnail"
                             style="width: 60px; height: 60px; object-fit: cover; border-radius: 50% !important; border: none;">
                         <span style="font-weight: bold;">{{ $seafood->nelayan->name }}</span>
                     </div>
                     <a href="#" class="btn btn-sm text-white d-flex align-items-center"
-                        style="background-color: #25D366; border-color: #25D366; align-self: center; font-size: 14px;" 
+                        style="background-color: #25D366; border-color: #25D366; align-self: center; font-size: 14px;"
                         ><i class="bi bi-chat"></i>Hubungi Penjual</a>
                 </div>
 
@@ -193,7 +193,7 @@
                     <button class="btn btn-sm btn-success text-white">Beli Sekarang</button>
                 </div>
             </div>
-            
+
         </div>
 
     {{-- produk lainnya --}}
@@ -258,7 +258,7 @@
                             <i class="bi bi-star text-muted"></i>
                         @endfor
                     </div>
-                                
+
                             </div>
                         </div>
                     </a>
@@ -280,7 +280,7 @@
                 const quantityInput = document.getElementById('quantity');
                 const subtotalAmount = document.getElementById('subtotal-amount');
                 const pricePerKg = {{ $seafood->harga->harga }};
-    
+
                 minusButton.addEventListener('click', () => {
                     let currentValue = parseInt(quantityInput.value);
                     if (currentValue > 1) {
@@ -288,7 +288,7 @@
                         updateSubtotal();
                     }
                 });
-    
+
                 plusButton.addEventListener('click', () => {
                     let currentValue = parseInt(quantityInput.value);
                     if (currentValue < parseInt(quantityInput.max)) {
@@ -296,7 +296,7 @@
                         updateSubtotal();
                     }
                 });
-    
+
                 quantityInput.addEventListener('change', () => {
                     let currentValue = parseInt(quantityInput.value);
                     if (currentValue < 1) {
@@ -306,7 +306,7 @@
                     }
                     updateSubtotal();
                 });
-    
+
                 function updateSubtotal() {
                     let currentValue = parseInt(quantityInput.value);
                     let newSubtotal = pricePerKg * currentValue;
@@ -314,20 +314,20 @@
                 }
                 updateSubtotal();
             });
-    
+
         document.addEventListener('DOMContentLoaded', function() {
             const showMoreButton = document.querySelector('.show-more-button');
             const products = document.querySelectorAll('.col');
             const initialProductsToShow = 4; // Jumlah produk yang ditampilkan awalnya
             let visibleProducts = initialProductsToShow;
-    
+
             // Sembunyikan produk yang tidak pertama kali
             for (let i = 0; i < products.length; i++) {
                 if (i >= initialProductsToShow) {
                     products[i].style.display = 'none';
                 }
             }
-    
+
             // Tampilkan lebih banyak produk saat tombol "Tampilkan Lebih Banyak" diklik
             showMoreButton.addEventListener('click', function() {
                 for (let i = 0; i < products.length; i++) {
@@ -335,18 +335,18 @@
                         products[i].style.display = 'block';
                     }
                 }
-    
+
                 visibleProducts += initialProductsToShow;
                 if (visibleProducts >= products.length) {
                     showMoreButton.style.display = 'none';
                 }
             });
         });
-    
+
         document.addEventListener('DOMContentLoaded', () => {
             // Find all elements with class 'add-to-cart'
             const addToCartButtons = document.querySelectorAll('.add-to-cart');
-    
+
             // Add click event listener to each button
             addToCartButtons.forEach(button => {
                 button.addEventListener('click', () => {
@@ -356,7 +356,7 @@
                     .value; // Get quantity from input field
                     const subtotal = document.getElementById('subtotal-amount').textContent.replace(
                         /[^\d]/g, ''); // Get subtotal from element text
-    
+
                     // Redirect to the add-to-cart route with parameters
                     window.location.href = `/user/produk/add-to-cart/${productId}/${jumlah}/${subtotal}`;
                 });

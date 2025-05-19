@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    <title>Pesanan Seafood - Raracookies</title>
+    <title>Pesanan Seafood - RaraCookies</title>
     <style>
         body {
             font-family: Arial, sans-serif;

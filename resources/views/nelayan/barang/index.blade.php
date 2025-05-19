@@ -1,6 +1,6 @@
 @extends('layouts.app_nelayan')
 @section('title')
-<title>Nelayan Barangsewa Page - Fishapp</title>
+<title>User Barangsewa Page - RaraCookies</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 <style>
     .card {
@@ -66,7 +66,7 @@
                             <i class="bi bi-eye"></i>
                         </a>
                         <a href="{{ route('barang.edit.nelayan', ['kode_barang' => $se->kode_barang]) }}" class="btn btn-sm btn-warning text-white">
-                            <i class="bi bi-pencil-square"></i> 
+                            <i class="bi bi-pencil-square"></i>
                         </a>
                         <a href="#" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#productModal3{{ $se->kode_barang }}">
                             <i class="bi bi-trash"></i>

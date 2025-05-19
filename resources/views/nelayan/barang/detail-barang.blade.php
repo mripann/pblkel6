@@ -1,7 +1,7 @@
 @extends('layouts.app_nelayan')
 
 @section('title')
-    <title>Detail Barang {{ $barang->nama_barang }} Page - Fishapp</title>
+    <title>Detail Barang {{ $barang->nama_barang }} Page - RaraCookies</title>
     <style>
         .card-title {
             font-size: 1.2rem; /* Ukuran judul lebih kecil */

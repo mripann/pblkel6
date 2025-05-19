@@ -1,6 +1,6 @@
 @extends('layouts.app_nelayan')
 @section('title')
-<title>Nelayan Setting Page - Fishapp</title>
+<title>User Setting Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -78,7 +78,7 @@
 
             <div class="mb-3 row">
                 <button style="width: 20%; margin-left:auto; margin-right:auto; margin-top:3%"
-                    type="submit" class="btn btn-danger">Perbaharui Password</button>
+                    type="submit" class="btn btn-danger">Perbarui Password</button>
             </div>
 
         </form>

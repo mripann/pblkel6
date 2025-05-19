@@ -16,7 +16,7 @@
         <div class="col-md-6 col-lg-4">
             <form action="{{route('nelayan.password.update', ['token' => $token, 'email' => $email])}}" method="POST" class="shadow p-4 rounded bg-white">
                 @csrf
-                <h1 class="text-center mb-4 custom-title">Reset Password Nelayan</h1>
+                <h1 class="text-center mb-4 custom-title">Reset Password User</h1>
 
                 <div class="form-group mb-3">
                     <label for="email">Email</label>

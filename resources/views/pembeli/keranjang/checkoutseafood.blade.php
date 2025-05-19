@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Checkout Page - Fishapp</title>
+    <title>Checkout Page - RaraCookies</title>
     <style>
         .harga {
             font-weight: bold;
@@ -106,7 +106,7 @@
                         <div class="card">
                             <div class="card-body">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="shippingOption_{{ $group['nelayan_id'] }}" id="shippingOption_{{ $group['nelayan_id'] }}_{{ $index }}" 
+                                <input class="form-check-input" type="radio" name="shippingOption_{{ $group['nelayan_id'] }}" id="shippingOption_{{ $group['nelayan_id'] }}_{{ $index }}"
                                 value="{{ $option['cost'] }}" data-cost="{{ $option['cost'] }}">
                                 <label class="form-check-label" for="shippingOption_{{ $group['nelayan_id'] }}_{{ $index }}">
                                 {{ $option['service'] }} - {{ $option['courier'] }} - Biaya: RP {{ number_format($option['cost'], 0, ',', '.') }} - ({{$option['etd']}} Hari)
@@ -133,16 +133,16 @@
                     <form action="{{ route('pesanan.submit') }}" method="POST" id="submitke2">
                         @csrf
                         <input type="hidden" name="grouppesanan" id="grouppesanan" style="display: none">
-                        <h5 class="fw-bold text-start">Detail Pesanan</h5> 
+                        <h5 class="fw-bold text-start">Detail Pesanan</h5>
                         <!-- tampilan lama -->
                         <div class="mb-3">
-                            <label for="subtotalProduk" class="d-block text-end">Sub Total (0 Produk) 
+                            <label for="subtotalProduk" class="d-block text-end">Sub Total (0 Produk)
                                 <span id="itemTotalPrice_{{ $group['nelayan_id'] }}">
                                     {{ number_format($item['subtotal'], 0, ',', '.') }}
                                 </span>
                             </label>
                             <input type="text" id="subtotalProduk" class="form-control text-end" readonly name="subtotalProduk">
-                            
+
                         </div>
                         <div class="mb-3">
                             <label for="totalShipping" class="d-block text-end">Sub Total Pengiriman:</label>
@@ -156,7 +156,7 @@
                             <label for="totalPayment" class="d-block text-end">Total Pembayaran:</label>
                             <input type="text" id="totalPayment" class="form-control text-end" readonly name="totalPayment">
                         </div>
-                        
+
                         <!-- tampilan baru -->
                         <!-- <div class="invoice-summary">
                             <div class="row">
@@ -193,7 +193,7 @@
                                 </div>
                             </div> -->
                     </div>
-                    
+
                     <div class="text-center">
                         <p class="fw-bold" style="font-size:12px;">
                             Dengan melanjutkan, Saya setuju dengan
@@ -209,7 +209,7 @@
     </div>
 </div>
 
-    
+
 
 @include('components.foot')
 @endsection

@@ -1,7 +1,7 @@
 @extends('layouts.app_nelayan')
 
 @section('title')
-    <title>Edit Barang {{$barang->nama_barang}} Page - Fishapp</title>
+    <title>Edit Barang {{$barang->nama_barang}} Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -29,7 +29,7 @@
                             <option value="Kurang Baik" {{ $barang->kondisi == 'Kurang Baik' ? 'selected' : '' }}>Kurang Baik</option>
                             <option value="Rusak" {{ $barang->kondisi == 'Rusak' ? 'selected' : '' }}>Rusak</option>
                         </select>
-                    </div>                    
+                    </div>
 
                     <div class="mb-3">
                         <label for="quantity" class="form-label">Jumlah</label>
@@ -50,7 +50,7 @@
                         </div>
                         <label for="photo" class="form-label mt-2">Ubah Foto:</label>
                         <input type="file" class="form-control" id="photo" name="photo" accept="image/*">
-                    </div>                    
+                    </div>
 
                     <button type="submit" class="btn btn-primary">Simpan</button>
                     <a href="{{ route('barangsewa.index') }}" class="btn btn-secondary">Kembali</a>

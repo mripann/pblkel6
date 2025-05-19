@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>BarangSewa page - Fishapp</title>
+    <title>BarangSewa page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 @endforeach
-                
+
         </div>
     </div>
 

@@ -18,7 +18,7 @@
             <div class="col-md-8 col-lg-6">
                 <form action="{{ route('post_form_pendaftaran_nelayan') }}" method="POST" class="shadow p-4 rounded bg-white"
                     enctype="multipart/form-data">
-                    <h1 class="text-center mb-4">Formulir Pendaftaran Nelayan</h1>
+                    <h1 class="text-center mb-4">Formulir Pendaftaran User</h1>
                     @csrf
 
                     <!-- Nama Lengkap -->

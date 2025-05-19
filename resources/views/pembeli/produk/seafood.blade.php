@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    <title>Seafood Page - Fishapp</title>
+    <title>Seafood Page - RaraCookies</title>
 @endsection
 
 @section('content')

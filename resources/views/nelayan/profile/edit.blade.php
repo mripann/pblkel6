@@ -1,6 +1,6 @@
 @extends('layouts.app_nelayan')
 @section('title')
-<title>Nelayan Profile Page - Fishapp</title>
+<title>User Profile Page - RaraCookies</title>
 @endsection
 
 @section('content')
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Tempat Sampah untuk Menghapus Foto -->
                         <div class="col-auto">
                             <a href="#" class="btn btn-danger" id="deletePhotoBtn">
@@ -52,8 +52,8 @@
                         </div>
                     </div>
                 </div>
-                           
-                
+
+
                 <span class="text-black-50">{{ Auth::guard('nelayan')->user()->name }}</span>
                 <span class="text-black-50">{{ Auth::guard('nelayan')->user()->email }}</span>
                 <span> </span>
@@ -100,7 +100,7 @@
                                 name="email"
                                 value="{{$nelayan->email}}" readonly>
                         </div>
-                       
+
                         <div class="mb-3" style="color: black">
                             <label for="nomer_telepon" class="form-label">Nomer Telepon :</label>
                             <input type="tel" class="form-control" id="nomer_telepon"
@@ -128,13 +128,13 @@
                                 <select class="form-control" id="sub_district" name="sub_district" required>
                                     <option value="" disabled {{ empty($nelayan->detailprofile->kecamatan) ? 'selected' : '' }}>Pilih Kecamatan</option>
                                     @foreach ($kecamatan as $kec)
-                                        <option value="{{ $kec->name }}" data-code="{{ $kec->code }}" 
+                                        <option value="{{ $kec->name }}" data-code="{{ $kec->code }}"
                                             {{ $kec->name === $nelayan->detailprofile->kecamatan ? 'selected' : '' }}>
                                             {{ $kec->name }}
                                         </option>
                                     @endforeach
                                 </select>
-                                
+
                             </div>
                             <div class="col-sm-6 mt-2">
                                 <label for="desa" class="form-label">Desa</label>
